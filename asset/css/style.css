@@ -1,0 +1,152 @@
+/*Font*/
+@font-face {
+    font-family: 'montserrat';
+    src: url(/asset/css/font/Montserrat-Bold.otf);
+}
+/*Estilos Generales*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix {
+    float: none;
+
+}
+
+body{
+    background: url(/img/tecnologia.jpg) no-repeat fixed;
+    background-size: 100%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  rgba(0, 0, 0, 0.60);
+    width: 100%;
+    height: 1214px;
+}
+
+.box-login {
+    width: 25%;
+    margin-top: -386px;
+}
+
+img {
+    margin-left: 10px;
+}
+
+h3 {
+    font-family: 'montserrat';
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: 'montserrat';
+    color: white;
+    text-align: center;
+    font-size: 36px;  
+}
+
+h4 {
+    font-family: 'montserrat';
+    color: white;
+    margin-left: 10px;
+}
+
+.form-login input[type="text"],
+.form-login input[type="password"]{
+    display: block;
+    margin: 0 auto;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    width: 96.2%;
+    height: 60px;
+    border: 0;
+    border-bottom: 1px solid white;
+    background:  rgba(114, 114, 114, 0.4);
+}
+
+.wrap-toggle {
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    background-color: gray;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.switch::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: white;
+    left: 5px;
+    top: 5px;
+    transition: all 0.4s;
+}
+
+input[type='checkbox']:checked + .switch::after {
+    transform: translateX(40px);
+}
+
+input[type='checkbox']:checked + .switch {
+    background-color: red;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999999px;
+}
+
+h5 {
+    font-family: 'montserrat';
+    font-size: 15px;
+    color: white;
+    line-height: 42px;
+    margin-left: 97px;
+}
+
+.form-login a {
+    display: block;
+    float: right;
+    text-decoration: none;
+    color: white;
+    font-family: 'montserrat';
+    margin-top: -20px;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.form-login input[type="submit"] {
+    background: red;
+    width: 70%;
+    height: 64px;
+    font-family: 'montserrat';
+    color: white;
+    font-size: 30px;
+    border: 0;
+    text-shadow: 2px 2px 2px #000;
+    font-style: italic;
+    cursor: pointer;
+    margin-top: 37px;
+}
+
+.new{
+    font-family: 'montserrat';
+    color: white;
+    text-align: center;
+}

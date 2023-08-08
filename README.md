@@ -1,2 +1,2 @@
 # Practicando
-Practicando con JavaScript PreCuerse-Henry
+Practicando con JavaScript haciendo un login funcional
