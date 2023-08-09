@@ -1,2 +1,2 @@
 # Practicando
-Practicando con JavaScript haciendo un login funcional
+Practicing with JavaScript making a functional login
