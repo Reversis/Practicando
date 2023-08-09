@@ -11,6 +11,7 @@
 
 .clearfix {
     float: none;
+    clear: both;
 
 }
 
@@ -26,6 +27,7 @@ body{
     background:  rgba(0, 0, 0, 0.60);
     width: 100%;
     height: 1214px;
+    backdrop-filter: blur(5px);
 }
 
 .box-login {
@@ -52,7 +54,7 @@ p {
     font-size: 36px;  
 }
 
-h4 {
+label {
     font-family: 'montserrat';
     color: white;
     margin-left: 10px;
@@ -69,12 +71,43 @@ h4 {
     border: 0;
     border-bottom: 1px solid white;
     background:  rgba(114, 114, 114, 0.4);
+    color: white;
+    font-size: 16px;
+    font-family: 'montserrat';
+}
+
+.form-login input[type="text"]:focus,
+.form-login input[type="password"]:focus{
+    border-bottom: 1px solid red;
+    transition: all 300ms;
+    outline: none;
+}
+
+.form-login input[type="text"]:hover,
+.form-login input[type="password"]:hover{
+    border-bottom: 1px solid red;
+    transition: all 300ms;
+}
+
+form i {
+    display: block;
+    position: absolute;
+    text-align: center;
+    color: white;
+    border-left: 1px solid black;
+    font-size: 53px;
+    margin-left: 374px;
+    margin-top: 21px;
+    cursor: pointer;
+}
+
+#togglePassword{
+    width: 86px;
 }
 
 .wrap-toggle {
     display: block;
     float: left;
-    margin-left: 10px;
 }
 
 .switch {
