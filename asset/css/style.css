@@ -26,13 +26,12 @@ body{
     align-items: center;
     background:  rgba(0, 0, 0, 0.60);
     width: 100%;
-    height: 1214px;
+    height: 963px;
     backdrop-filter: blur(5px);
 }
 
 .box-login {
     width: 25%;
-    margin-top: -386px;
 }
 
 img {
@@ -51,11 +50,13 @@ p {
     font-family: 'montserrat';
     color: white;
     text-align: center;
-    font-size: 36px;  
+    font-size: 16px;
+    margin-top: 60px;
 }
 
 label {
     font-family: 'montserrat';
+    font-style: italic;
     color: white;
     margin-left: 10px;
 }
@@ -162,6 +163,15 @@ h5 {
     margin-top: -20px;
     margin-right: 10px;
     font-size: 13px;
+    font-style: italic;
+}
+
+.form-login a:hover {
+    text-decoration: underline red;
+}
+
+.form-login a:focus {
+    color: red;
 }
 
 .form-login input[type="submit"] {
@@ -176,11 +186,55 @@ h5 {
     font-style: italic;
     cursor: pointer;
     margin-top: 37px;
+    margin-left: -26px;
 }
 
 .new{
     font-family: 'montserrat';
     color: white;
-    text-align: center;
+    margin-left: 169px;
+    font-style: italic;
     text-decoration: none;
+}
+
+.new:hover {
+    text-decoration: underline red;
+}
+
+.new:focus {
+    color: red;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    height: 100px;
+    align-items: center;
+    width: 476px;
+}
+
+.icon {
+    display: block;
+    width: 132px;
+    height: 71px;
+    font-size: 36px;
+    background-color: rgb(37, 37, 37);
+    border: 1px solid rgb(37, 37, 37);
+    border-radius: 20px;
+    margin: 0 auto;
+    transition: all 300ms;
+}
+
+.icon a {
+    color: white;
+}
+
+.icon i {
+    line-height: 71px;
+    margin-left: 50px;
+}
+
+.icon:hover {
+    background-color: red;
 }
